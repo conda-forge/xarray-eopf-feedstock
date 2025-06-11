@@ -1,5 +1,5 @@
 {% set name = "xarray-eopf" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/EOPF-Sample-Service/xarray-eopf/archive/v{{ version }}.tar.gz
-  sha256: a3dbb85439e18c907be15cd4dbe83660830e4bd8cb49d48861dcd3c4e4a9eb3c
+  sha256: 762be945c6906f028dd21a3e6307adbdeb0517c61524058e4d39b038ee793fbb
 
 build:
   number: 0
@@ -33,7 +33,7 @@ requirements:
     - s3fs
     - xarray >=2024.10
     - zarr >=2,<3.0
-    
+
 test:
   imports:
     - xarray_eopf
