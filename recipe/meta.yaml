@@ -25,11 +25,12 @@ requirements:
     - aiohttp
     - dask
     - dask-image
+    - flox
     - fsspec
-    - numba
     - numpy
     - pyproj
     - requests
+    - rioxarray
     - s3fs
     - xarray >=2024.10
     - xcube-resampling >=0.3.2
