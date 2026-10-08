@@ -1,5 +1,5 @@
 {% set name = "xarray-eopf" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/EOPF-Sample-Service/xarray-eopf/archive/v{{ version }}.tar.gz
-  sha256: a201152873f18b94ed1e63dbb295bef4d5081c989feb6ecca304c79ad92b7ec5
+  sha256: 8cb3dca46d82a96291480c3e04882023decb76dae489702a0d60362d51f1ad0c
 
 build:
   number: 0
